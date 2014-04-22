@@ -14,5 +14,5 @@ categories: varios
 	Por mi parte me veo inmerso en un mar de constante investigación sobre nuevas tecnologías, lenguajes y aquello que, crea o vea, será lo que venga para el futuro. Es necesario para esto recibir y transmitir la energía requerida para tal fin. Por mi parte en mi universidad (<a href="http://www.unlam.edu.ar" target="_blank">UNLaM</a>) siempre he encontrado gente muy agradable y con ganas de hacer un poco más. Desde deportes, hasta académicamente, me he curzado con gente que no se conforma con poco y siempre quiere un poco más.
 </p>	
 <p>
-	Para ir terminando sepan que nada es imposible y que <span class="italic">el que abandona no tiene premio...</span>
+	Para ir terminando sepan que nada es imposible y que <span class="italic">"el que abandona no tiene premio..."</span>
 </p>
