@@ -78,6 +78,7 @@ a:visited { color: #a0a; }
 .header a {
   font-weight: bold;
   text-decoration: none;
+  float: right;
 }
 
 .title {
