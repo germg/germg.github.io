@@ -96,7 +96,6 @@ a:visited { color: #a0a; }
 .header a.extra {
   color: #aaa;
   margin-left: 1em;
-  float: right;
 }
 
 .header a.extra:hover {
