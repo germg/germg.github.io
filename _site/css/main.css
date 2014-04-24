@@ -64,15 +64,23 @@ a:visited { color: #a0a; }
   font-size: 115%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 1em auto 2em;
   line-height: 1.5em;
+}
+
+.middle
+{
+
+  padding: 1em 10px 0px 10px;  
 }
 
 .header
 {
-  border-bottom: 4px solid #eee; 
+  /*border-bottom: 4px solid #eee; */
+  border-radius:5px;
   margin-bottom: 2em;
   font-size: 110%;
+  background-image:url('/javascript/jquery-ui-1.10.4.custom/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png');
 }
 
 .header a {
@@ -87,7 +95,8 @@ a:visited { color: #a0a; }
 }
 
 .title a {
-  color: #0404B4;
+  /*color: #0404B4;*/
+  color: #fff;
 }
 
 .title a:hover {
@@ -95,7 +104,8 @@ a:visited { color: #a0a; }
 }
 
 .header a.extra {
-  color: #aaa;
+  /*color: #0404B4;*/
+  color: #fff;
   margin-left: 1em;
 }
 

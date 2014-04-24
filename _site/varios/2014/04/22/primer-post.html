@@ -12,12 +12,29 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <!-- JQuery -->
+        <link rel="stylesheet" href="/javascript/jquery-ui-1.10.4.custom/css/redmond/jquery-ui-1.10.4.custom.min.css">
+
+        <script src="/javascript/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+        <script src="/javascript/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+
     </head>
     <body>
+      <script type="text/javascript">
+        $(function() {
+            $(".button").button();
+            $( document ).tooltip();
+        });
+
+      </script>
+
+
         <div class="site">
           <div class="header">
+            <div class="middle">
               <h1 class="title"><a href="/">Germán Mazza Gentile</a></h1>
               <a class="extra" href="/about.html">Acerca de mi</a>
+            </div>
           </div>
 
           <script type="text/javascript">
