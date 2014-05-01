@@ -19,7 +19,7 @@ A continuación algunos tips para llegar a una buena meta
 	<img class="headerIcons" src="/images/check.png">
 </div>
 <p>
- Debe destacar a la perfección quién eres y las calificaciones que tienes como empleado. En ella se deben reflejar claramente cuáles son tus habilidades y qué tipo de resultados positivos puedes generar en tu posible nuevo puesto empleo.
+ Debe destacar a la perfección quién eres y las calificaciones que tienes como empleado. En ella se deben reflejar claramente cuáles son tus habilidades y qué tipo de resultados positivos puedes generar en tu posible nuevo empleo.
 </p>
 
 <div class="sombra">
@@ -116,7 +116,7 @@ A continuación algunos tips para llegar a una buena meta
 	<img class="headerIcons" src="/images/delete.png">
 </div>
 <p>
-	No hay que olvidar que el curruculum es un resumen del historial profesional. Si pones demasiado detalles corres el riesgo que la persona que lo lee pierda la concentración y el foco en el documento.
+	No hay que olvidar que el curriculum es un resumen del historial profesional. Si pones demasiado detalles corres el riesgo que la persona que lo lee pierda la concentración y el foco en el documento.
 </p>
 <div class="sombra">
 	Ser redundante
@@ -131,20 +131,6 @@ A continuación algunos tips para llegar a una buena meta
 </div>
 <p>
 	Datos como tu altura, de tu familia o una lista excesiva de pasatiempos. Si tus hobbies tienen relación con el puesto al que estás postulando, escríbelos. Si no, deja esa información para ti, ya que puede dar la impresión que el postulante no tiene mucho de qué hablar respecto de su carrera. Además, no incluyas en tu contacto correos como elmejor87, porque puede verse menos profesional y demuestra poca preocupación por los detalles.
-</p>
-<div class="sombra">
-	Utilizar términos muy técnicos y palabras rebuscadas
-	<img class="headerIcons" src="/images/delete.png">
-</div>
-<p>
-	Su uso dependerá del cargo al que se está postulando. Aunque existen postulaciones donde esta es información muy relevante, en otros casos solo confunden al reclutador. Además, podrías parecer pedante, por lo que es mejor utilizar un lenguaje sencillo y cercano, sin caer en lo vulgar o coloquial. Dar a conocer tendencia política, sindical o religiosa tampoco es bueno. No sabes quién leerá tu curriculum ni tampoco cómo esa información puede influir en la decisión final.
-</p>
-<div class="sombra">
-	Utilizar términos muy técnicos y palabras rebuscadas
-	<img class="headerIcons" src="/images/delete.png">
-</div>
-<p>
-	Su uso dependerá del cargo al que se está postulando. Aunque existen postulaciones donde esta es información muy relevante, en otros casos solo confunden al reclutador. Además, podrías parecer pedante, por lo que es mejor utilizar un lenguaje sencillo y cercano, sin caer en lo vulgar o coloquial. Dar a conocer tendencia política, sindical o religiosa tampoco es bueno. No sabes quién leerá tu curriculum ni tampoco cómo esa información puede influir en la decisión final.
 </p>
 <div class="sombra">
 	Utilizar términos muy técnicos y palabras rebuscadas
