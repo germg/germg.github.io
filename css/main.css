@@ -114,8 +114,9 @@ a:visited { color: #a0a; }
 }
 
 .meta {
-  color: #fff;
+  color: #aaa;
   font-size: 14px;
+  font-weight: bold;
   border-bottom: 4px solid #eee;
 }
 
@@ -203,6 +204,11 @@ a:visited { color: #a0a; }
   font-size: 15px;
   font-style: italic;
   padding-left: 1em;
+}
+
+.postTitle
+{
+  font-size: 170%;
 }
 
 .paddingBottom
