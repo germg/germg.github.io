@@ -22,8 +22,12 @@
     <body>
       <script type="text/javascript">
         $(function() {
-            $(".button").button();
+            $( ".button" ).button();
             $( document ).tooltip();
+            $( ".accordion" ).accordion({
+              collapsible: true,
+              heightStyle: "content"
+            });
         });
 
       </script>
@@ -42,6 +46,13 @@
     
       <li> 
       	<div>
+      		<a href="/varios/2014/05/01/datos-cv.html">Datos que no pueden faltar en su Curriculum Vitae</a>
+      		<span>01 May 2014</span>
+      	</div>
+      	</li>
+    
+      <li> 
+      	<div>
       		<a href="/varios/2014/04/22/primer-post.html">Primer post!</a>
       		<span>22 Apr 2014</span>
       	</div>
@@ -57,11 +68,11 @@
                 <a href="mailto:ger.mazzagentile@gmail.com">ger.mazzagentile@gmail.com</a><br />
               </p>
             </div>
-            <div class="contact">
+            <div class="contact" title="Perfil en LinkedIn">
               <div class="contactIcons">
                 <a href="http://ar.linkedin.com/pub/german-mazza-gentile/1b/778/162" target="_blank"><img id="logoLinkedin" src="http://germg.github.io/images/linkedin.png" class="contactImage" /></a>
               </div>
-              <div class="contactIcons">
+              <div class="contactIcons" title="germg">
                 <a href="http://github.com/germg" target="_blank"><img id="logoLinkedin" src="http://germg.github.io/images/github.png" class="contactImage" /></a>
               </div>
             </div>
