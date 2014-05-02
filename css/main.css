@@ -222,6 +222,7 @@ a:visited { color: #a0a; }
   border-radius: 5px;
   box-shadow: 0px 0px 15px #999;
   /*filter: progid:DXImageTransform.Microsoft.Shadow(color='#666666', Direction=135, Strength=4);*/
+  filter: shadow(color=#999999, direction=135, strength=2);
 }
 
 .headerIcons
