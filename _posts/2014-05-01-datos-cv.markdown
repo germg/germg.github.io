@@ -9,7 +9,7 @@ categories: varios
 El Curriculum Vitae es un documento muy importante al momento de buscar de empleo en cualquier país del mundo. Cada cultura tiene un concepto de profesional y una manera de gestionar la información laboral diferente. Es esencial tener en cuenta algunos puntos que no pueden faltar en el mismo, asi como también, adaptar el curriculum de acuerdo al trabajo al que se está postulando, resaltando las labores relacionadas al cargo ofrecido.
 </p>
 <p>
-A continuación algunos tips para llegar a una buena meta:
+A continuación algunos tips para llegar a una buena meta
 </p>
 <div class="accordion">
 	<h3>Que deberías incluir</h3>
