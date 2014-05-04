@@ -43,9 +43,9 @@ a:visited { color: #a0a; }
 }
 
 .posts span {
-  color: #000000;
+  color: #424242;
   font-family: Arial, "Courier New", monospace;
-  font-size: 120%;
+  font-size: 110%;
   float: right;
 }
 
@@ -198,7 +198,6 @@ a:visited { color: #a0a; }
   background-color: #333;
 }
 
-
 .post h1
 {
   font-size: 15px;
@@ -214,6 +213,11 @@ a:visited { color: #a0a; }
 .paddingBottom
 {
   padding: 0em 0em 1.5em 0em;
+}
+
+.paddingBottom05
+{
+  padding-bottom: 1em; 
 }
 
 .sombra 

@@ -7,9 +7,9 @@ title: Ger Mazza Gentile
   <ul class="posts">
     {% for post in site.posts %}
       <li> 
-      	<div>
+      	<div class="paddingBottom05">
       		<a href="{{ post.url }}">{{ post.title }}</a>
-      		<span>{{ post.date | date_to_string }}</span>
+      		<span class="list">{{ post.date | date_to_string }}</span>
       	</div>
       	</li>
     {% endfor %}
