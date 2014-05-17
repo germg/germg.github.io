@@ -63,7 +63,7 @@ a:visited { color: #a0a; }
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 50em;
+  width: 60em;
   margin: 1em auto 2em;
   line-height: 1.5em;
 }
@@ -160,6 +160,16 @@ a:visited { color: #a0a; }
   padding-right: 1em;
 }
 
+.bold
+{
+  font-weight: bold;
+}
+
+.underline
+{
+  text-decoration: underline;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
@@ -237,4 +247,19 @@ a:visited { color: #a0a; }
   padding: 0px 2px 5px 0px;
   width: 20px;
   height: 20px;
+}
+
+.backgroundRadius
+{
+  padding: 5px 5px 5px 5px;
+  background-color: #EFF5FB;
+  border-radius: 5px;
+}
+
+.imageAbout
+{
+  float: right;
+  margin-left: 1em;
+  width: 120px;
+  height: 120px;
 }
