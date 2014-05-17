@@ -31,6 +31,7 @@
 
     </head>
     <body>
+      <!-- JQuery -->
       <script type="text/javascript">
         $(function() {
             $( ".button" ).button();
@@ -43,6 +44,14 @@
 
       </script>
 
+      <!-- Other javascript functions -->
+      <script type="text/javascript">
+        function getCurrentUrl(){
+          var url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+
+          return url;
+        }
+      </script>  
 
         <div class="site">
           <div class="header">
@@ -65,7 +74,6 @@
     }());
     </script>
 
-
 <h2 class="postTitle">Primer post!</h2>
 <p class="meta">varios | 22 Apr 2014</p>
 
@@ -85,10 +93,32 @@
 </p>
 
 </div>
+    <div id="facebookButtons" class="fb-like" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
+    </div>
 
-
- <div id="disqus_thread"></div>
+    <!-- Facebook integration -->
     <script type="text/javascript">
+        document.getElementById("facebookButtons").setAttribute("href", getCurrentUrl());
+
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '{your-app-id}',
+            xfbml      : true,
+            version    : 'v2.0'
+          });
+        };
+
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'germggithubio'; // required: replace example with your forum shortname
 

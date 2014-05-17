@@ -31,6 +31,7 @@
 
     </head>
     <body>
+      <!-- JQuery -->
       <script type="text/javascript">
         $(function() {
             $( ".button" ).button();
@@ -43,6 +44,14 @@
 
       </script>
 
+      <!-- Other javascript functions -->
+      <script type="text/javascript">
+        function getCurrentUrl(){
+          var url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+
+          return url;
+        }
+      </script>  
 
         <div class="site">
           <div class="header">
