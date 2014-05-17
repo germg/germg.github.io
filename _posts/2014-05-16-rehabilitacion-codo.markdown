@@ -6,7 +6,7 @@ categories: salud
 ---
 
 <p class="backgroundRadius sombra">
-Por esas cuestiones de la vida volviendo a casa desde el trabajo, tuve la mala suerte de pisar un charco de gasoil con mi moto y caer usando de apoyo el codo (algo para nada recomendable). La caída provocó una pequeña fractura en el radio (lo que no quiere decir que no sea doloroso) inhabilitando el brazo por al menos cuatro semanas...
+Por esas cuestiones de la vida volviendo a casa desde el trabajo, tuve la mala suerte de pisar una mancha de gasoil con mi moto y caer usando de apoyo el codo (algo para nada recomendable). La caída provocó una pequeña fractura en el radio (lo que no quiere decir que no sea doloroso) inhabilitando el brazo por al menos cuatro semanas...
 </p>
 <p>
 Las fracturas de la cabeza del radio constituyen el 20 % de las heridas del codo. Éstas a menudo ocurren como resultado de un intento de amortiguar una caída usando las manos. La fuerza de la caída puede ser tan grande que viaja hacia arriba y lleva a la lesión del codo. 
