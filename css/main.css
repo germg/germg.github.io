@@ -170,6 +170,12 @@ a:visited { color: #a0a; }
   text-decoration: underline;
 }
 
+.facesIcons
+{
+  width: 19px;
+  height: 19px;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
