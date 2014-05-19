@@ -1,3 +1,4 @@
 name: Germán Mazza Gentile
 markdown: redcarpet
 pygments: true
+default_locale: "ar"

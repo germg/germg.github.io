@@ -16,12 +16,12 @@ layout: default
     </script>
 
 <h2 class="postTitle">{{ page.title }}</h2>
-<p class="meta">{{ page.categories }} | {{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.categories }} | {{ page.date | date: "%d-%m-%y" }}</p>
 
 <div class="post">
 {{ content }}
 </div>
-    <div id="facebookButtons" class="fb-like" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
+    <div id="facebookButtons" class="fb-like" rel="http://germg.github.io/favicon.ico" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
     </div>
 
     <!-- Facebook integration -->
