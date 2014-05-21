@@ -17,6 +17,8 @@
         <title>Un casco para la cabeza y otro para el codo...</title>
         <meta name="viewport" content="width=device-width">
 
+        <link rel="image_src" type="text/css" href="http://germg.github.io/images/germazzagentile.png">
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
@@ -28,6 +30,7 @@
 
         <script src="/javascript/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
         <script src="/javascript/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+        <script src="/javascript/germg.js"></script>
 
     </head>
     <body>
@@ -42,15 +45,6 @@
             });
         });
 
-      </script>
-
-      <!-- Other javascript functions -->
-      <script type="text/javascript">
-        function getCurrentUrl(){
-          var url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
-
-          return url;
-        }
       </script>  
 
         <div class="site">
@@ -109,28 +103,21 @@ Usa un martillo, lata o pesa liviana para completar el ejercicio. Mantén el ele
 </p></p>
 
 </div>
-    <div id="facebookButtons" class="fb-like" rel="http://germg.github.io/favicon.ico" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
-    </div>
+
+    <div id="facebookButtons" class="fb-like" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
     <!-- Facebook integration -->
+    <div id="fb-root"></div>
     <script type="text/javascript">
         document.getElementById("facebookButtons").setAttribute("href", getCurrentUrl());
 
-        window.fbAsyncInit = function() {
-          FB.init({
-            appId      : '{your-app-id}',
-            xfbml      : true,
-            version    : 'v2.0'
-          });
-        };
-
-        (function(d, s, id){
-           var js, fjs = d.getElementsByTagName(s)[0];
-           if (d.getElementById(id)) {return;}
-           js = d.createElement(s); js.id = id;
-           js.src = "//connect.facebook.net/en_US/sdk.js";
-           fjs.parentNode.insertBefore(js, fjs);
-         }(document, 'script', 'facebook-jssdk'));
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 
     <div id="disqus_thread"></div>

@@ -22,28 +22,20 @@ layout: default
 {{ content }}
 </div>
 
-    <div id="facebookButtons" class="fb-like" rel="http://germg.github.io/favicon.ico" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
-    </div>
+    <div id="facebookButtons" class="fb-like" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
     <!-- Facebook integration -->
+    <div id="fb-root"></div>
     <script type="text/javascript">
         document.getElementById("facebookButtons").setAttribute("href", getCurrentUrl());
 
-        window.fbAsyncInit = function() {
-          FB.init({
-            appId      : '{your-app-id}',
-            xfbml      : true,
-            version    : 'v2.0'
-          });
-        };
-
-        (function(d, s, id){
-           var js, fjs = d.getElementsByTagName(s)[0];
-           if (d.getElementById(id)) {return;}
-           js = d.createElement(s); js.id = id;
-           js.src = "//connect.facebook.net/en_US/sdk.js";
-           fjs.parentNode.insertBefore(js, fjs);
-         }(document, 'script', 'facebook-jssdk'));
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 
     <div id="disqus_thread"></div>
