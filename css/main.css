@@ -13,7 +13,9 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  /*background-color: #FFF;
+  background-color: #D8D8D8;#355664*/
+  background-color: #213E4A;
   font: 13.34px Arial, Helvetica, sans-serif;
   text-align: center;
 }
@@ -28,6 +30,11 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+.aboutContent
+{
+  padding: 1em 1em 1em 1em;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -35,7 +42,8 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 .posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  padding: 0 1em 0 1em;
 }
 
 .posts li {
@@ -49,9 +57,14 @@ a:visited { color: #a0a; }
   float: right;
 }
 
+.titleSection
+{
+  padding: 5px 5px 5px 5px; 
+}
+
 .italic
 {
-  font-style: italic;;  
+  font-style: italic;  
 }
 
 /*****************************************************************************/
@@ -66,6 +79,8 @@ a:visited { color: #a0a; }
   width: 60em;
   margin: 1em auto 2em;
   line-height: 1.5em;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 .middle
@@ -77,10 +92,15 @@ a:visited { color: #a0a; }
 .header
 {
   /*border-bottom: 4px solid #eee; */
-  border-radius:5px;
-  margin-bottom: 2em;
+  padding: 0 .5em 0 .5em;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 1em;
   font-size: 110%;
-  background-image:url('/javascript/jquery-ui-1.10.4.custom/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png');
+  /*background-image:url('/javascript/jquery-ui-1.10.4.custom/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png');*/
+  background: -webkit-linear-gradient(#0A0A2A, #0B0B61); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0A0A2A, #0B0B61); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0A0A2A, #0B0B61); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0A0A2A, #0B0B61); /* Standard syntax */
 }
 
 .header a {
@@ -100,17 +120,16 @@ a:visited { color: #a0a; }
 }
 
 .title a:hover {
-  color: #000;
+  color: #848484;
 }
 
 .header a.extra {
-  /*color: #0404B4;*/
   color: #fff;
   margin-left: 1em;
 }
 
 .header a.extra:hover {
-  color: #000;
+  color: #848484;
 }
 
 .meta {
@@ -118,14 +137,23 @@ a:visited { color: #a0a; }
   font-size: 14px;
   font-weight: bold;
   border-bottom: 4px solid #eee;
+  margin-bottom: 1.5em;
 }
 
 .footer {
+  padding: 0 1em 0 1em;
+  border-radius: 0 0 5px 5px;
   font-size: 90%;
   color: #666;
   border-top: 4px solid #eee;
-  margin-top: 2em;
+  margin-top: 1em;
   overflow: hidden;
+  /*background-color: #fff;*/
+
+  background: -webkit-linear-gradient(#eee, #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#eee, #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#eee, #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#eee, #fff); /* Standard syntax */
 }
 
 .footer .contact {
@@ -182,6 +210,12 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
+.post
+{
+  padding: 0 1em 0 1em;
+  margin-bottom: 1em;
+}
+
 /* standard */
 .post pre {
   border: 1px solid #ddd;
@@ -223,22 +257,21 @@ a:visited { color: #a0a; }
 
 .postTitle
 {
+  padding: 0 1em 0 1em;
+}
+
+.postPageTitle
+{
   font-size: 170%;
 }
 
 .paddingBottom
 {
-  padding: 0em 0em 1.5em 0em;
+  padding-bottom: 1.5em;
 }
 
-.paddingBottom05
+.shadow 
 {
-  padding-bottom: 1em; 
-}
-
-.sombra 
-{
-  padding: 5px 5px 5px 5px;
   border-radius: 5px;
   box-shadow: 0px 0px 15px #999;
   /* IE 8 */
@@ -268,4 +301,24 @@ a:visited { color: #a0a; }
   margin-left: 1em;
   width: 120px;
   height: 120px;
+  border-radius: 2px;
+}
+
+.integrations
+{
+
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.disqusIntegration
+{
+  margin-top: 1em;
+  padding: 7px 7px 7px 7px;
+}
+
+.facebookIntegration
+{
+  padding-top: 1em;
+  border-top: 4px solid #eee;
 }

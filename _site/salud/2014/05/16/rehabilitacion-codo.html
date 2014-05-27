@@ -47,7 +47,7 @@
 
       </script>  
 
-        <div class="site">
+        <div class="site shadow">
           <div class="header">
             <div class="middle">
               <h1 class="title"><a href="/">Germán Mazza Gentile</a></h1>
@@ -68,11 +68,13 @@
     }());
     </script>
 
-<h2 class="postTitle">Un casco para la cabeza y otro para el codo...</h2>
-<p class="meta">salud | 16-05-14</p>
+<div class="postTitle">
+    <h2 class="postPageTitle">Un casco para la cabeza y otro para el codo...</h2>
+    <p class="meta">salud | 16-05-14</p>
+</div>    
 
 <div class="post">
-<p class="backgroundRadius sombra">
+<p class="backgroundRadius shadow">
 Por esas cuestiones de la vida volviendo a casa desde el trabajo, tuve la mala suerte de pisar una mancha de gasoil con mi moto y caer usando de apoyo el codo (algo para nada recomendable). La caída provocó una pequeña fractura en el radio (lo que no quiere decir que no sea doloroso) inhabilitando el brazo por al menos cuatro semanas...
 </p>
 
@@ -81,7 +83,7 @@ Las fracturas de la cabeza del radio constituyen el 20 % de las heridas del codo
 La cabeza radial es la parte superior del hueso más pequeño del antebrazo. Las fracturas de cabeza de radio pueden ser tratadas en forma conservadora o por cirugía. Sin importar el tratamiento, los ejercicios de fuerza y rango de movimiento son beneficiosos para la recuperación.
 </p>
 
-<p class="sombra">
+<p class="shadow titleSection">
 Algunos ejercicios para obtener una buena recuperación
 </p>
 
@@ -104,37 +106,43 @@ Usa un martillo, lata o pesa liviana para completar el ejercicio. Mantén el ele
 
 </div>
 
-    <div id="facebookButtons" class="fb-like" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="integrations">
+    <div class="facebookIntegration">
+        <div id="facebookButtons" class="fb-like" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
-    <!-- Facebook integration -->
-    <div id="fb-root"></div>
-    <script type="text/javascript">
-        document.getElementById("facebookButtons").setAttribute("href", getCurrentUrl());
-
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-    <div id="disqus_thread"></div>
+        <!-- Facebook integration -->
+        <div id="fb-root"></div>
         <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'germggithubio'; // required: replace example with your forum shortname
+            document.getElementById("facebookButtons").setAttribute("href", getCurrentUrl());
 
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+    </div>
+    <div class="disqusIntegration shadow">
 
+        <!-- Disqus integration -->
+        <div id="disqus_thread"></div>
+            <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'germggithubio'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</div>
 
           <div class="footer">
             <div class="contact">
