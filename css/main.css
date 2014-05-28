@@ -33,6 +33,12 @@ a:visited { color: #a0a; }
   padding: 1em 1em 1em 1em;
 }
 
+.br
+{
+  display: block;
+    margin: 5px 0;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -89,12 +95,10 @@ a:visited { color: #a0a; }
 
 .header
 {
-  /*border-bottom: 4px solid #eee; */
   padding: 0 .5em 0 .5em;
   border-radius: 5px 5px 0 0;
   margin-bottom: 1em;
   font-size: 110%;
-  /*background-image:url('/javascript/jquery-ui-1.10.4.custom/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png');*/
   background: -webkit-linear-gradient(#0A0A2A, #0B0B61); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#0A0A2A, #0B0B61); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#0A0A2A, #0B0B61); /* For Firefox 3.6 to 15 */
@@ -113,12 +117,11 @@ a:visited { color: #a0a; }
 }
 
 .title a {
-  /*color: #0404B4;*/
   color: #fff;
 }
 
 .title a:hover {
-  color: #848484;
+  text-shadow: 0 0 15px #fff; 
 }
 
 .header a.extra {
@@ -127,7 +130,7 @@ a:visited { color: #a0a; }
 }
 
 .header a.extra:hover {
-  color: #848484;
+  text-shadow: 0 0 15px #fff; 
 }
 
 .meta {
@@ -142,16 +145,11 @@ a:visited { color: #a0a; }
   padding: 0 1em 0 1em;
   border-radius: 0 0 5px 5px;
   font-size: 90%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 1em;
   overflow: hidden;
-  /*background-color: #fff;*/
-
-  background: -webkit-linear-gradient(#eee, #fff); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#eee, #fff); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#eee, #fff); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#eee, #fff); /* Standard syntax */
+  background: -webkit-linear-gradient(#A4A4A4, #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#A4A4A4, #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#A4A4A4, #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#A4A4A4, #fff); /* Standard syntax */
 }
 
 .footer .contact {
@@ -161,7 +159,7 @@ a:visited { color: #a0a; }
 }
 
 .footer .contact a {
-  color: #8085C1;
+  color: #0B0B61;
 }
 
 .footer .rss {
@@ -172,6 +170,12 @@ a:visited { color: #a0a; }
 
 .footer .rss img {
   border: 0;
+}
+
+.contactName
+{
+  color: #0B0B61;
+  font-weight: bold;
 }
 
 .contactImage
