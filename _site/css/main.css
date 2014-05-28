@@ -13,9 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  /*background-color: #FFF;
-  background-color: #D8D8D8;#355664*/
-  background-color: #213E4A;
+  background:#fff url("/images/pattern-background.jpg") repeat;
   font: 13.34px Arial, Helvetica, sans-serif;
   text-align: center;
 }
