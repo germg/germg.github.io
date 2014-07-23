@@ -24,38 +24,68 @@
         <link rel="stylesheet" href="/css/main.css">
 
         <!-- JQuery -->
-        <link rel="stylesheet" href="/javascript/jquery-ui-1.10.4.custom/css/redmond/jquery-ui-1.10.4.custom.min.css">
-
-        <script src="/javascript/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
-        <script src="/javascript/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
-        <script src="/javascript/germg.js"></script>
-
+        <link rel="stylesheet" href="/js/jquery-ui-1.10.4.custom/css/redmond/jquery-ui-1.10.4.custom.min.css">
     </head>
     <body>
-      <!-- JQuery -->
-      <script type="text/javascript">
-        $(function() {
-            $( ".button" ).button();
-            $( document ).tooltip();
-            $( ".accordion" ).accordion({
-              collapsible: true,
-              heightStyle: "content"
-            });
-        });
-
-      </script>  
-
-        <div class="site shadow">
-          <div class="header">
-            <div class="middle">
-              <h1 class="title"><a href="/">Germán Mazza Gentile</a></h1>
-              <a class="extra" href="/about.html">Acerca de mi</a>
+      <div class="main">
+        <header>
+          <div class="logo">
+            <div class="logo_text">
+              <h1><a href="index.html">Germán Mazza Gentile</a></h1>
+              <h2>Programación, música y mucha buena onda!</h2>
             </div>
           </div>
+          <nav>
+            <div class="menu_container">
+              <ul class="sf-menu" id="nav">
+                <li><a href="/index.html">Inicio</a></li>
+                <!--<li><a href="#">Example Drop Down</a>
+                  <ul>
+                    <li><a href="#">Drop Down One</a></li>
+                    <li><a href="#">Drop Down Two</a>
+                      <ul>
+                        <li><a href="#">Sub Drop Down One</a></li>
+                        <li><a href="#">Sub Drop Down Two</a></li>
+                        <li><a href="#">Sub Drop Down Three</a></li>
+                        <li><a href="#">Sub Drop Down Four</a></li>
+                        <li><a href="#">Sub Drop Down Five</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Drop Down Three</a></li>
+                    <li><a href="#">Drop Down Four</a></li>
+                    <li><a href="#">Drop Down Five</a></li>
+                  </ul>
+                </li>-->
+                <li><a href="/about.html">Acerca de mi</a></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <div class="site_content">
+          <div class="sidebar_container">
+            <!--<img class="paperclip" src="images/paperclip.png" alt="paperclip" />
+            <div class="sidebar">
+              <h3>Latest News</h3>
+              <h4>New Website Launched</h4>
+              <h5>January 1st, 2012</h5>
+              <p>2012 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
+            </div>
+          -->
+            <img class="paperclip" src="images/paperclip.png" alt="paperclip" />
+            <div class="sidebar">
+              <h3>Desarrollo web</h3>
+              <ul>
+                <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+                <li><a href="http://bootsnipp.com/" target="_blank">Bootsnipp</a></li>
+                <li><a href="http://codepen.io/" target="_blank">Codepen</a></li>
+              </ul>
+            </div>
 
-           <div id="home" class="aboutContent">
+          </div>
+          <div class="content">
+             <div id="home" class="aboutContent">
   <div>
-    <img class="sombra imageAbout" src="images/germazzagentile.png">
+   <!-- <img class="sombra imageAbout" src="images/germazzagentile.png">-->
   </div>
     <p>
       Soy Germán, estudio ingeriería y actualmente me desempeño como programador!
@@ -70,23 +100,28 @@
       En este blog espero transmitir que no todos los programadores son introvertidos y aburridos, con lo cual, seguramente vas a encontrar diversos posts con temas que demuestren lo contrario.
     </p>
 </div>
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <span class="contactName br">Germán Mazza Gentile</span>
-                <a href="mailto:ger.mazzagentile@gmail.com" title="Enviar un email">ger.mazzagentile@gmail.com</a>
-              </p>
-            </div>
-            <div class="contact" title="Perfil en LinkedIn">
-              <div class="contactIcons">
-                <a href="http://ar.linkedin.com/pub/german-mazza-gentile/1b/778/162" target="_blank"><img id="logoLinkedin" src="http://germg.github.io/images/linkedin.png" class="contactImage" alt="" /></a>
-              </div>
-              <div class="contactIcons" title="germg">
-                <a href="http://github.com/germg" target="_blank"><img id="logoLinkedin" src="http://germg.github.io/images/github.png" class="contactImage" alt="" /></a>
-              </div>
-            </div>
           </div>
         </div>
+        <div id="scroll">
+          <a title="Ir arriba" class="top" href="#"><img src="images/top.png" alt="top" /></a>
+        </div>
+        <footer>
+          <p><a href="index.html">Inicio</a> | <a href="about.html">Acerca de mi</a></p>
+          <p>
+            <a href="mailto:ger.mazzagentile@gmail.com" title="Enviar un email">Germán Mazza Gentile</a>
+          </p>
+          <span title="Perfil en Linkedin">
+            <a href="http://ar.linkedin.com/pub/german-mazza-gentile/1b/778/162" target="_blank"><img id="logoLinkedin" src="http://germg.github.io/images/linkedin.png" class="contactImage" alt="" /></a>
+          </span>
+          <span title="germg en Github">
+            <a href="http://github.com/germg" target="_blank"><img id="logoLinkedin" src="http://germg.github.io/images/github.png" class="contactImage" alt="" /></a>
+          </span>
+        </footer>
+      </div>
+      <script src="http://germg.github.io/js/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+      <script src="http://germg.github.io/js/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+      <script type="text/javascript" src="http://germg.github.io/js/jquery.easing-sooper.js"></script>
+      <script type="text/javascript" src="http://germg.github.io/js/jquery.sooperfish.js"></script>
+      <script src="http://germg.github.io/js/germg.js"></script>
     </body>
 </html>
