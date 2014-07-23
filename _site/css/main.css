@@ -19,7 +19,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 body { 
   font: normal .80em arial, sans-serif;
-  background: #F8F7EE url(../images/pattern.png);
+  background: #F8F7EE url(http://germg.github.io/images/pattern.png);
   color: #7A7A68;
 }
 
@@ -101,6 +101,7 @@ a:visited { color: #a0a; }
 .titleSection
 {
   padding: 5px 5px 5px 5px; 
+  margin-bottom: 1em;
 }
 
 .italic
@@ -188,7 +189,7 @@ header {
 .logo { 
   width: 1000px;
   height: 200px;
-  background: transparent url(../images/logo.png) no-repeat right;
+  background: transparent url(http://germg.github.io/images/logo.png) no-repeat right;
   color: #888;
   padding: 0;
 }
@@ -229,7 +230,7 @@ nav {
   height: 44px;
   width: 100%;
   margin: -44px auto 0 auto;
-  background: transparent url(../images/menubar.png) repeat;
+  background: transparent url(http://germg.github.io/images/menubar.png) repeat;
 } 
 
 .menu_container { 
@@ -241,7 +242,7 @@ nav {
   width: 90%;
   overflow: hidden;
   margin: 1em auto 0 auto;
-  padding: 3em 0 40px 0;
+  padding: 1em 0 40px 0;
 } 
 
 .sidebar_container { 
@@ -252,9 +253,9 @@ nav {
 .sidebar { 
   float: right;
   width: 200px;
-  margin: 0 0 17px 0;
+  margin: 0 0 2em 0;
   background: #FFF;
-  border: 1px solid #eee;
+  border: 1px solid #D8D8D8;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;
@@ -320,7 +321,7 @@ nav {
 
 .content ul li, .sidebar ul li { 
   list-style-type: none;
-  background: url(../images/bullet.png) no-repeat;
+  background: url(http://germg.github.io/images/bullet.png) no-repeat;
   margin: 0 0 0 0; 
   padding: 0 0 4px 28px;
   line-height: 1.5em;
@@ -360,6 +361,14 @@ nav {
   height: 19px;
 }
 
+.meta {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 4px solid #D8D8D8;
+  margin-bottom: 1.5em;
+}
+
 footer { 
   width: 100%;
   font-family: Arial, 'lucida sans', sans-serif;
@@ -367,7 +376,7 @@ footer {
   height: 100px;
   padding: 20px 0 5px 0;
   text-align: center; 
-  background: #404040 url(../images/footer.png) repeat-x;
+  background: #404040 url(http://germg.github.io/images/footer.png) repeat-x;
   color: #A8AA94;
   margin: 0 auto;
 }
@@ -473,7 +482,7 @@ table tr td {
 /* scroll to top */
 #scroll { 
   position: relative; 
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
   bottom: 14px; 
   right: 0;
@@ -483,7 +492,7 @@ table tr td {
   
 #scroll a { 
   float: right;
-  margin: 0 0 0 0; 
+  margin: 0 10% 0 0; 
   padding: 0 0 0 0;
 }
   
@@ -582,7 +591,7 @@ span.sf-arrow {
   top: 20px;
   right: 5px;
   display: block;
-  background: url(../images/arrows-white.png) no-repeat 0 0;
+  background: url(http://germg.github.io/images/arrows-white.png) no-repeat 0 0;
   overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
   font-size: 1px;
 }
@@ -599,7 +608,7 @@ ul#nav {
 }
 
 ul#nav ul { 
-  background: url(../images/menu_hover.png) repeat;
+  background: url(http://germg.github.io/images/menu_hover.png) repeat;
   margin-top: 5px;
   padding-bottom: 15px;
 }
@@ -706,6 +715,7 @@ ul#nav li a:hover,ul#nav li a:focus {
   padding: 5px 5px 5px 5px;
   background-color: #EFF5FB;
   border-radius: 5px;
+  margin-bottom: 1em;
 }
 
 .imageAbout
@@ -734,5 +744,5 @@ ul#nav li a:hover,ul#nav li a:focus {
 .facebookIntegration
 {
   padding-top: 1em;
-  border-top: 4px solid #eee;
+  border-top: 4px solid #D8D8D8;
 }
