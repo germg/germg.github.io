@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 { 
-  font: normal 140% 'century gothic', arial;
+  font: normal 140% arial, Tahoma, 'century gothic';
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
   color: #000;
@@ -187,7 +187,7 @@ header {
 }
 
 .logo { 
-  width: 1000px;
+  width: 80%;
   height: 200px;
   background: transparent url(http://germg.github.io/images/logo.png) no-repeat right;
   color: #888;
@@ -196,7 +196,8 @@ header {
 
 .logo .logo_text { 
   top: 5px;
-  left: 0;
+  left: 2em;
+  padding-left: 2%;
 }
 
 .logo h1, .logo h2 { 
@@ -406,7 +407,7 @@ footer a:hover {
 
 .form_settings span { 
   float: left; 
-  width: 200px; 
+  width: 10%; 
   text-align: left;
 }
   
@@ -746,3 +747,67 @@ ul#nav li a:hover,ul#nav li a:focus {
   padding-top: 1em;
   border-top: 4px solid #D8D8D8;
 }
+
+/* iPhone (portrait) */
+@media (max-width: 767px) {
+  
+}
+
+/* iPhone (landscape) */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  .content { 
+    text-align: left;
+    width: 100%;
+    margin-bottom:15px;
+    float: left;
+    font-size: 100%;
+    padding-top: 14px;
+  }
+
+  .logo { 
+    width: 100%;
+    height: 200px;
+    background: transparent url(http://germg.github.io/images/logo.png) no-repeat right;
+    color: #888;
+    padding: 0;
+  }
+
+  .posts span {
+    color: #424242;
+    font-family: Arial, "Courier New", monospace;
+    font-size: 100%;
+    float: right;
+  }
+
+  .logo .logo_text { 
+    font-size: 70%;
+    padding-left: 2%;
+  }
+  
+  .logo_text h2
+  {
+    color: #000;
+    font-weight: bold;
+  }
+
+  .sidebar
+  {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
