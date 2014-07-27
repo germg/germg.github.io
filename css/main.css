@@ -616,7 +616,7 @@ ul#nav ul {
 
 ul#nav li a { 
   padding:7px 20px 6px 20px;
-  font: 170% 'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+  font: 170% arial,verdana,tahoma;
   text-shadow: 1px 1px #000;
   text-decoration:none;
   color:#FFF;
