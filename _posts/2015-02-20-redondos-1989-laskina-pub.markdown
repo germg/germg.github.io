@@ -14,9 +14,9 @@ Pequeño show en Laskina bar luego de la presentación en el Palacio Peñarol de
 <p>
 <iframe class="youtube" src="https://www.youtube.com/embed/OlRCYbl17fQ" frameborder="0" allowfullscreen></iframe>
 </p>
-<p>
-Lista de temas
-</p>
+
+## Lista de temas
+
 <ul>
 	<li>
 		01 - Unos pocos peligros sensatos

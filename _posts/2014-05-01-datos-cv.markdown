@@ -11,34 +11,31 @@ El Curriculum Vitae es un documento muy importante al momento de buscar de emple
 <p>
 A continuación algunos tips para llegar a una buena meta:
 </p>
-<div class="accordion">
+<div>
 	<h3>Que deberías incluir</h3>
-	<div>
-<div class="shadow titleSection">
+<div>
+<br>
+<div class="shadow titleSection bold">
 	La primer página
-	<img class="headerIcons" src="/images/check.png">
 </div>
-<p class="paddingBottom">
+<p>
  Debe destacar a la perfección quién eres y las calificaciones que tienes como empleado. En ella se deben reflejar claramente cuáles son tus habilidades y qué tipo de resultados positivos puedes generar en tu posible nuevo empleo.
 </p>
 
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Datos personales
-	<img class="headerIcons" src="/images/check.png">
 </div>
-<p class="paddingBottom">
+<p>
  Tu nombre, dirección, número de teléfono, edad, lugar de nacimiento, estado civil, número de hijos (si es que tienes). Imprescindibles para ponerse en contacto contigo y tener presentes los demás datos desde un primer momento. Asegúrate que podrán contactar contigo a través de los datos que les facilitas.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Foto
-	<img class="headerIcons" src="/images/check.png">
 </div>
-<p class="paddingBottom">
+<p>
 	Muy importante añadir una foto tuya en la que presentes una imagen seria y profesional.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Estudios y prácticas para estudiantes
-	<img class="headerIcons" src="/images/check.png">
 </div>
 <p>
 	Estudios de primaria, secundaria. Quizás no coincidan con los sistemas educativos de otros paises, pero es importante agregar estos datos con el mejor detalle posible en cuanto a fechas y estudios.
@@ -46,40 +43,35 @@ A continuación algunos tips para llegar a una buena meta:
 <p>
 	Estudios Universitarios. Incluye los estudios en el extranjero si los tienes. Especifica la Universidad dónde has estudiado (o aún estudias), la carrera y el periodo.
 </p>
-<p class="paddingBottom">
+<p>
 	Prácticas para estudiantes. Dónde las has realizado y que tareas llevaste a cabo durante las misma.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Experiencia Laboral
-	<img class="headerIcons" src="/images/check.png">
 </div>
-<p class="paddingBottom">
+<p>
 	 Donde has trabajado, en qué periodo y las principales tareas que realizabas. Ordenadas desde el último puesto hacia el primero, es más interesante conocer que has hecho en un periodo mas cercano al actual.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Idiomas
-	<img class="headerIcons" src="/images/check.png">
 </div>
-<p class="paddingBottom">
+<p>
 	Se valora mucho el conocimiento de idiomas. Especifica los idiomas que conoces, el nivel y los títulos que lo certifican, si los tuvieras.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Conocimientos informáticos y nuevas tecnologías
-	<img class="headerIcons" src="/images/check.png">
 </div>
-<p class="paddingBottom">
+<p>
 	Este punto es nuevo. Hace unos años no era necesario pero, hoy en día, muchos empleos precisan del conocimiento y manejo de programas como Word y excel de Microsoft y, a veces, el manejo de programas de diseño o edición HTML. Especifica tus conocimientos tanto como puedas.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Otras actividades
-	<img class="headerIcons" src="/images/check.png">
 </div>
-<p class="paddingBottom">
+<p>
 	Muchas veces, las actividades que realizamos en nuestro tiempo libre dicen mucho sobre nosotros. Si perteneces a una asociación, realizar algún deporte o colaboras con alguna institución, explícalo, puede ser lo que incline la balanza hacia ti.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Presentación y diseño
-	<img class="headerIcons" src="/images/check.png">
 </div>
 <p>
 	Asegúrese de imprimir su curriculum en un papel de buena calidad, pues esto denota profesionalismo.
@@ -89,52 +81,46 @@ A continuación algunos tips para llegar a una buena meta:
 </p>
 </div>
 <h3>Que no deberías incluir</h3>
+<br>
 <div>
-	<div class="shadow titleSection">
+	<div class="shadow titleSection bold">
 	Establecer conocimientos o competencias con la que no se cuente
-	<img class="headerIcons" src="/images/delete.png">
 </div>
-<p class="paddingBottom">
+<p>
 	Es importante ser objetivo a la hora de calificar sus conocimientos y habilidades. Por ejemplo, no establecer un nivel de inglés superior al que realmente se tiene, porque cuando se ofrece un trabajo que tiene como requisito el manejo de otro idioma, esto siempre será probado a través de una prueba técnica.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Utilizar un lenguaje poco claro
-	<img class="headerIcons" src="/images/delete.png">
 </div>
-<p class="paddingBottom">
+<p>
 	Un curriculum mal redactado o con algún error ortográfico muestra despreocupación del candidato. Se recomienda pedirle a alguien que revise el documento antes de mandarlo, pues muchas veces los candidatos escriben mal el cargo o el nombre de la empresa donde trabajan.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Exagerar respecto a las funciones y cargos desarrollados
-	<img class="headerIcons" src="/images/delete.png">
 </div>
-<p class="paddingBottom">
+<p>
 	Establecer más funciones o responsabilidades de las que realmente te asignaron puede generar dudas al evaluador respecto a la veracidad de la experiencia, lo que podría condicionar la posibilidad de ser preseleccionado.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Describir la trayectoria laboral de forma muy extensa
-	<img class="headerIcons" src="/images/delete.png">
 </div>
-<p class="paddingBottom">
+<p>
 	No hay que olvidar que el curriculum es un resumen del historial profesional. Si pones demasiado detalles corres el riesgo que la persona que lo lee pierda la concentración y el foco en el documento.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Ser redundante
-	<img class="headerIcons" src="/images/delete.png">
 </div>
-<p class="paddingBottom">
+<p>
 	Al definirte, hazlo de forma clara, organizada y acotada. Poner un resumen que destaque características personales como ser proactivo, simpático, responsable, más que los logros obtenidos profesionalmente, entrega una impresión negativa a los evaluadores y esto puede ser causa de quedar fuera del proceso de selección. Ninguna empresa quiere tener un empleado egocéntrico.
 </p>
-<div class="shadow titleSection">
-	Incluir información inapropiada
-	<img class="headerIcons" src="/images/delete.png">
+<div class="shadow titleSection bold">
+	Información inapropiada
 </div>
-<p class="paddingBottom">
+<p>
 	Datos como tu altura, de tu familia o una lista excesiva de pasatiempos. Si tus hobbies tienen relación con el puesto al que estás postulando, escríbelos. Si no, deja esa información para ti, ya que puede dar la impresión que el postulante no tiene mucho de qué hablar respecto de su carrera. Además, no incluyas en tu contacto correos como elmejor87, porque puede verse menos profesional y demuestra poca preocupación por los detalles.
 </p>
-<div class="shadow titleSection">
+<div class="shadow titleSection bold">
 	Utilizar términos muy técnicos y palabras rebuscadas
-	<img class="headerIcons" src="/images/delete.png">
 </div>
 <p>
 	Su uso dependerá del cargo al que se está postulando. Aunque existen postulaciones donde esta es información muy relevante, en otros casos solo confunden al reclutador. Además, podrías parecer pedante, por lo que es mejor utilizar un lenguaje sencillo y cercano, sin caer en lo vulgar o coloquial. Dar a conocer tendencia política, sindical o religiosa tampoco es bueno. No sabes quién leerá tu curriculum ni tampoco cómo esa información puede influir en la decisión final.
