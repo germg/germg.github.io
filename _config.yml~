@@ -22,7 +22,7 @@ url: "http://germg.com" # the base hostname & protocol for your site
 
 # Social
 githubUsername: germg
-twitterUsername:
+twitterUsername: ger_mg1
 dribbbleUsername:
 codepenUsername:
 linkedinUsername: https://ar.linkedin.com/in/german-mazza-gentile-1627781b
@@ -30,10 +30,8 @@ linkedinUsername: https://ar.linkedin.com/in/german-mazza-gentile-1627781b
 # Build settings
 markdown: kramdown
 
-themeColor: blue # grey, blue, orange, purple, green
+themeColor: blue # grey, purple, orange, purple, green
 fixedNav: 'true' # true or false
-
-default_locale: "ar"
 
 permalink: /:year/:month/:title
 markdown: kramdown
