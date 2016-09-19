@@ -3,7 +3,7 @@ layout: page
 title: Ger Mazza Gentile
 ---
 
-# Sean todos bienvenidos todos al blog de la linda de la fé sonriente!
+# Sean todos bienvenidos todos al blog de la linda fé sonriente!
 
 <!--## Heading Level 2-->
 

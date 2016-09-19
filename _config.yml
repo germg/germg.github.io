@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Germg
-email: ger.mazzagentile@gmail.com
+email: german@germg.com
 description: > # this means to ignore newlines until "baseurl:"
   Un blog con programación, música y buena onda.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -30,7 +30,7 @@ linkedinUsername: https://ar.linkedin.com/in/german-mazza-gentile-1627781b
 # Build settings
 markdown: kramdown
 
-themeColor: blue # grey, blue, orange, purple, green
+themeColor: orange # grey, blue, orange, purple, green
 fixedNav: 'true' # true or false
 
 default_locale: "ar"
