@@ -6,9 +6,69 @@
 </description>
     <link>http://germg.com/</link>
     <atom:link href="http://germg.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Sep 2016 21:13:08 -0300</pubDate>
-    <lastBuildDate>Sun, 18 Sep 2016 21:13:08 -0300</lastBuildDate>
+    <pubDate>Tue, 29 Nov 2016 00:58:06 -0300</pubDate>
+    <lastBuildDate>Tue, 29 Nov 2016 00:58:06 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Usando dompdf</title>
+        <description>&lt;p&gt;Hace poco me consultaron sobre la implementación de &lt;a href=&quot;https://github.com/dompdf/dompdf&quot; target=&quot;_blank&quot;&gt;dompdf&lt;/a&gt; en PHP y noté que hay un paso primordial en la misma, que puede ser un dolor de cabeza.&lt;/p&gt;
+
+&lt;p&gt;Luego de descargar e inlcuir a nuestro proyecto la librería dompdf, debemos realizar los siguientes pasos para lograr una correcta implementación:&lt;/p&gt;
+
+&lt;p&gt;Para este ejemplo, vamos a crear un archivo PHP en nuestro proyecto, al que nombraremos GetPDF.php
+&lt;/p&gt;
+
+&lt;h4 id=&quot;incluir-el-archivo-autoloader-de-dompdf&quot;&gt;Incluir el archivo autoloader de dompdf:&lt;/h4&gt;
+&lt;p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;require_once(__DIR__ . &quot;/dompdf/autoload.inc.php&quot;);&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;h4 id=&quot;luego-debemos-indicar-inamespacei-que-utilizaremos-para-dompdf-mediante-la-palabra-reservada-iusei&quot;&gt;Luego debemos indicar &lt;i&gt;namespace&lt;/i&gt; que utilizaremos para dompdf, mediante la palabra reservada &lt;i&gt;use&lt;/i&gt;.&lt;/h4&gt;
+&lt;p&gt;
+Para mas información, pueden visitar la página oficial de &lt;a href=&quot;http://php.net/manual/es/language.namespaces.importing.php&quot; target=&quot;_blank&quot;&gt;PHP&lt;/a&gt; en donde se explica dicha funcionalidad. Este paso es muy importante, dado que, sin esta declaración, dompdf no funcionará.
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;use Dompdf\Dompdf;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;h4 id=&quot;luego-solo-resta-la-implementacin-de-dompdf&quot;&gt;Luego solo resta la implementación de dompdf&lt;/h4&gt;
+
+&lt;p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;// Creamos el html a mostrar.
+$html = &quot;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;&lt;/span&gt;Ejemplo dompdf&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt;&lt;/span&gt;Ejemplo dompdf.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&quot;;
+
+// Se crea una instancia de dompdf y luego le asignamos el html que debe mostrar.
+$dompdf = new Dompdf;
+$dompdf-&amp;gt;loadHtml($html);
+
+// (Opcional) Asignamos el tamaño de hoja y la horientación.
+$dompdf-&amp;gt;setPaper('A4', 'landscape');
+$dompdf-&amp;gt;set_option('isHtml5ParserEnabled', true);
+
+// Renderiza el html a PDF
+$dompdf-&amp;gt;render();
+
+// Devolvemos el PDF generado al navegador indicando el nombre del mismo.
+$dompdf-&amp;gt;stream('ejemplo-dompdf.pdf');&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;/p&gt;
+
+&lt;h4 id=&quot;listo-solo-resta-aplicarlo-y-generar-archivos-pdf&quot;&gt;Listo! Solo resta aplicarlo y generar archivos PDF.&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 28 Nov 2016 20:32:00 -0300</pubDate>
+        <link>http://germg.com/2016/11/usando-dompdf</link>
+        <guid isPermaLink="true">http://germg.com/2016/11/usando-dompdf</guid>
+        
+        
+        <category>Programación</category>
+        
+      </item>
     
       <item>
         <title>Patricio Rey y Sus Redonditos de Ricota - Laskina pub (1989)</title>
