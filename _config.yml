@@ -30,7 +30,7 @@ linkedinUsername: https://ar.linkedin.com/in/german-mazza-gentile-1627781b
 # Build settings
 markdown: kramdown
 
-themeColor: orange # grey, blue, orange, purple, green
+themeColor: blue # grey, blue, orange, purple, green
 fixedNav: 'true' # true or false
 
 default_locale: "ar"
